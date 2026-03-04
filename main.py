@@ -29,4 +29,5 @@ async def play(ctx, url):
 
 keep_alive()
 # 2. حط التوكن حقك هنا بين القوسين
+# بدلاً من bot.run("TOKEN") العادي
 bot.run("MTQ3ODgwMTEwMDg2NTAxNTgzOA.GMDAtA.M-TARbqgP5VfGrYlVL-60DA0xzQLlq2q9StXJk")
