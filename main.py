@@ -28,6 +28,7 @@ async def play(ctx, url):
     ctx.voice_client.play(source)
 
 keep_alive()
-# 2. حط التوكن حقك هنا بين القوسين
-# بدلاً من bot.run("TOKEN") العادي
-bot.run("MTQ3ODgwMTEwMDg2NTAxNTgzOA.GMDAtA.M-TARbqgP5VfGrYlVL-60DA0xzQLlq2q9StXJk")
+import os
+
+# السطر الأخير بدلاً من كتابة التوكن مباشرة:
+bot.run(os.environ.get('DISCORD_TOKEN'))
