@@ -9,7 +9,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # 1. حط هنا أيدي الروم الصوتي حقك (بدل الأصفار)
-VOICE_CHANNEL_ID = 0000000000000000 
+VOICE_CHANNEL_ID = 1423404186761953463 
 
 @bot.event
 async def on_ready():
@@ -29,4 +29,4 @@ async def play(ctx, url):
 
 keep_alive()
 # 2. حط التوكن حقك هنا بين القوسين
-bot.run("حط_التوكن_هنا")
+bot.run("MTQ3ODgwMTEwMDg2NTAxNTgzOA.GMDAtA.M-TARbqgP5VfGrYlVL-60DA0xzQLlq2q9StXJk")
